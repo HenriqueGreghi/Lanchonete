@@ -60,19 +60,13 @@ namespace Lanchonete
         {
             Calculo l = new Calculo();
             l.Produto = 4.00;
-            Console.Write("Entre com a quantidade: ");
-            l.Quantidade = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-
             Console.WriteLine(l);
 
         }
         public static void XSalada()
         {
             Calculo l = new Calculo();
-            l.Produto = 4.50;
-            Console.Write("Entre com a quantidade: ");
-            l.Quantidade = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-
+            l.Produto = 4.50;           
             Console.WriteLine(l);
 
         }
@@ -80,9 +74,6 @@ namespace Lanchonete
         {
             Calculo l = new Calculo();
             l.Produto = 5.00;
-            Console.Write("Entre com a quantidade: ");
-            l.Quantidade = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-
             Console.WriteLine(l);
 
         }
@@ -90,27 +81,18 @@ namespace Lanchonete
         {
             Calculo l = new Calculo();
             l.Produto = 2.00;
-            Console.Write("Entre com a quantidade: ");
-            l.Quantidade = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-
             Console.WriteLine(l);
         }
         public static void Refrigerante()
         {
             Calculo l = new Calculo();
             l.Produto = 1.50;
-            Console.Write("Entre com a quantidade: ");
-            l.Quantidade = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-
             Console.WriteLine(l);
         }
         public static void XDog()
         {
             Calculo l = new Calculo();
             l.Produto = 5.50;
-            Console.Write("Entre com a quantidade: ");
-            l.Quantidade = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-
             Console.WriteLine(l);
 
         }

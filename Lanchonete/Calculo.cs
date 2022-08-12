@@ -12,6 +12,8 @@ namespace Lanchonete
        
         public double ValorPedido()
         {
+            Console.Write("Entre com a quantidade: ");
+            Quantidade = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             Total = Quantidade * Produto;
 
             return Total;
