@@ -22,38 +22,32 @@ namespace Lanchonete
             int x = int.Parse(Console.ReadLine());
 
 
-            if (x == 1)
+            switch (x)
             {
 
-                CachorroQuente();
+                case 1:
+                    CachorroQuente();
+                    break;
+                case 2:
+                    XSalada();
+                    break;
+                case 3:
+                    XBacon();
+                    break;
+                case 4:
+                    TorradaSimples();
+                    break;
+                case 5:
+                    Refrigerante();
+                    break;
+                case 6:
+                   XDog();
+                    break;
+                case 7:
+                    
+                    break;
+                   
             }
-            else if (x == 2)
-            {
-                XSalada();
-            }
-            else if (x == 3)
-            {
-                XBacon();
-            }
-            else if (x == 4)
-            {
-                TorradaSimples();
-            }
-            else if (x == 5)
-            {
-                Refrigerante();
-            }
-            else if (x == 6)
-            {
-                XDog();
-            }
-            else
-            {
-
-            }
-
-
-
 
         }
         public static void CachorroQuente()
@@ -66,7 +60,7 @@ namespace Lanchonete
         public static void XSalada()
         {
             Calculo l = new Calculo();
-            l.Produto = 4.50;           
+            l.Produto = 4.50;
             Console.WriteLine(l);
 
         }
