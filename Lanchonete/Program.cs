@@ -44,7 +44,7 @@ namespace Lanchonete
                    XDog();
                     break;
                 case 7:
-                    
+                default:
                     break;
                    
             }
